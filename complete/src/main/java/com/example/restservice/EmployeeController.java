@@ -38,7 +38,6 @@ public class EmployeeController {
 		// to get the list of all 
 		// the employees 
  @GetMapping( 
-		path = "/", 
 		produces = "application/json") 
 
 	public Employees getEmployees() 
@@ -53,7 +52,6 @@ public class EmployeeController {
 		// to add an employee 
 		// to the list 
  @PostMapping( 
-		path = "/", 
 		consumes = "application/json", 
 		produces = "application/json") 
 
